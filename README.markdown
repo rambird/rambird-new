@@ -6,7 +6,7 @@ sample application by SpringSource.
 
 The original application lives at https://github.com/SpringSource/spring-petclinic
 
-## Running petclinic locally
+## Running rambird locally
 
 First, you will have to download it. If you have a local installation of git, you can
 do it by simply cloning this repository:
