@@ -31,8 +31,7 @@ import javax.persistence.SequenceGenerator;
 @MappedSuperclass
 public class BaseEntity {
 	@Id
-	@SequenceGenerator(name="owners_id_seq", sequenceName="owners_id_seq", allocationSize=1)
-	@GeneratedValue(generator="owners_id_seq", strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "id")
 	protected Integer id;
 
